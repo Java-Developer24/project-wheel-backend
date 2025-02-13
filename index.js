@@ -8,7 +8,7 @@ const port = 3000;
 app.use(cors());
 app.use(
   cors({
-    origin: ["https://project-wheel-fortune.vercel.app/"], // Allow this specific origin
+    origin: ["https://project-wheel-fortune.vercel.app"], // Allow this specific origin
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
     credentials: true, // Allow cookies and authentication headers
   })
